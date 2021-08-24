@@ -1,0 +1,622 @@
+/* ::::: http://tv-blog.net/cl_pro_mens_life2/css/style.css ::::: */
+* {
+	outline: none;
+}
+
+.img_photo {
+	margin: 0 auto;
+}
+
+.add-comment {
+	display: flex;
+	flex-direction: column;
+
+}
+
+img {
+	border: 0px none;
+}
+
+a img {
+	border: 0px none;
+}
+
+.logo {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	margin: 6px 0px 8px;
+	padding: 0px;
+	font: bold 30px/30px arial;
+	color: rgb(51, 51, 51);
+	border-bottom: 4px solid rgb(102, 102, 102);
+	display: inline-block;
+}
+
+h4:not(h4.h4_form1):not(h4.h4_form) {
+	margin: 6px 0px 8px;
+	padding: 0px 0px 4px;
+	font: bold 18px/18px tahoma;
+	color: rgb(51, 51, 51);
+	border-bottom: 4px solid rgb(102, 102, 102);
+}
+
+h4 span.arrow {
+	width: 16px;
+	height: 14px;
+	display: inline-block;
+	background: url('../img/arrow.png')
+		/*tpa=http://lifejoornal.com/hs/2/garik/arrow.png*/
+		no-repeat scroll 0px 0px transparent;
+	vertical-align: middle;
+}
+
+p {
+	margin: 0px 0px 6px;
+	padding: 0px;
+	line-height: 14px;
+}
+
+ul,
+ol {
+	margin: 0px 0px 6px;
+	padding: 0px 0px 0px 25px;
+}
+
+li {
+	margin: 0px;
+	padding: 0px;
+	line-height: 14px;
+}
+
+a {
+	color: rgb(10, 43, 246);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(10, 43, 246);
+	text-decoration: underline;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: rgb(51, 51, 51);
+	font-family: Arial, Tahoma;
+	font-size: 11px;
+	background: url('../img/mlback.jpg');
+	background-repeat: repeat;
+	/* background-size: cover; */
+	background-position: center center;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+}
+
+.clear {
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+	color: rgb(91, 91, 91);
+	border: 1px solid rgb(195, 195, 195);
+	padding: 3px;
+}
+
+table.form tr td input[type="text"],
+input[type="password"],
+select,
+textarea {
+	width: 200px;
+}
+
+.centered-container {
+	max-width: 1002px;
+	margin: 0px auto;
+}
+
+.bordered-wrapper {
+	padding: 0px;
+	max-width: 1000px;
+	margin: 0px auto;
+	border-width: 1px 1px 0px;
+	border-style: solid;
+	border-color: rgb(233, 233, 233);
+	background-color: rgb(255, 255, 255);
+}
+
+.head-new {
+	max-width: 970px;
+	margin: 0px auto 9px;
+}
+
+.head-new .block-logo {
+	display: flex;
+	flex-direction: column;
+	height: 106px;
+}
+
+.head-new .block-logo .title {
+	font: bold 14px arial;
+	color: rgb(51, 51, 51);
+	margin: 7px 0px 10px;
+}
+
+.head-new .block-logo .title a {
+	font: bold 14px arial;
+	color: rgb(51, 51, 51);
+	text-decoration: none;
+}
+
+.head-new .block-logo .title a:hover {
+	font: bold 14px arial;
+	color: rgb(51, 51, 51);
+	text-decoration: none;
+	background-color: transparent;
+}
+
+
+
+.top-menu2 {
+	max-width: 100%;
+}
+
+.top-menu2>ul {
+	position: relative;
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	border-bottom: 4px solid rgb(208, 37, 30);
+	/* max-width: 100%; */
+}
+
+.top-menu2>ul>li {
+	/* float: left; */
+	padding: 0px;
+	margin: 0px 0px 0px 10px;
+	position: relative;
+	height: 39px;
+	z-index: 1000;
+}
+
+.top-menu2>ul>li.first {
+	margin-left: 15px;
+}
+
+.top-menu2>ul>li>a {
+	font: bold 18px/45px "trebuchet MS";
+	padding: 5px 7px 6px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.top-menu2>ul>li>a.active {
+	background-color: rgb(208, 37, 30);
+}
+
+.top-menu2>ul>li>a:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(82, 100, 129);
+	text-decoration: none;
+}
+
+.top-menu2>ul>li>div {
+	position: absolute;
+	top: 39px;
+	width: auto;
+	display: none;
+	padding: 2px 0px 0px;
+	margin: 0px;
+	color: rgb(255, 255, 255);
+	background: url('../img/transparent-bg.png') repeat scroll 0px 0px transparent;
+	border-bottom: 4px solid rgb(208, 37, 30);
+	border-top: 4px solid rgb(208, 37, 30);
+}
+
+.top-menu2>ul>li:hover>div {
+	display: block;
+}
+
+.content {
+	display: flex;
+	max-width: 970px;
+	padding: 10px 15px;
+	background-color: rgb(255, 255, 255);
+}
+
+.content-main {
+	max-width: 700px;
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	background-color: rgb(255, 255, 255);
+}
+
+.right-col {
+	width: 230px;
+	border-left: 2px solid rgb(226, 226, 226);
+	margin: 0px;
+	padding: 0px 0px 0px 15px;
+	background-color: rgb(255, 255, 255);
+}
+
+/* ul.breadcrumb {
+	float: left;
+	padding: 0px;
+	margin: 2px 0px 0px;
+	list-style: outside none none;
+}
+
+ul.breadcrumb li {
+	display: inline;
+}
+
+ul.breadcrumb span {
+	font: bold 14px arial;
+	color: rgb(51, 51, 51);
+} */
+
+.right-col .right-block {
+	margin: 25px 0px 0px;
+	text-align: center;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	max-width: 970px;
+	margin: 10px auto 0px;
+	text-align: left;
+	background-color: rgb(26, 26, 26);
+	color: rgb(204, 204, 204);
+	padding: 15px;
+}
+
+.footer .copyright {
+	max-width: 970px;
+	padding: 0px;
+	font: 11px/18px tahoma;
+	color: rgb(153, 153, 153);
+}
+
+.footer .copyright p {
+	padding: 0px;
+	margin: 0px;
+	font: 11px/18px tahoma;
+	color: rgb(153, 153, 153);
+}
+
+.news-detail {
+	font-size: 13px;
+	font-family: arial;
+	text-align: justify;
+	color: rgb(17, 17, 17);
+	line-height: 135%;
+	position: relative;
+}
+
+.news-detail h1 {
+	margin: 15px 0px;
+	padding: 0px;
+	font: bold 30px tahoma, arial;
+	color: rgb(0, 0, 0);
+	border: medium none;
+	display: block;
+	text-align: left;
+}
+
+.news-detail p {
+	font-size: 13px;
+	font-family: arial;
+	/* text-align: justify; */
+	color: rgb(17, 17, 17);
+	line-height: 150%;
+}
+
+.top_comment {
+	background: rgb(91, 127, 166);
+	padding: 5px 5px 5px 6px;
+	min-height: 25px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top_comment span {
+	/* padding: 1px 3px; */
+
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	display: block;
+	/* float: left; */
+	font-size: 12px;
+	line-height: 100%;
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+}
+
+.top_comment a {
+	display: block;
+	/* float: right; */
+	/* margin: -2px -2px 0px 0px; */
+}
+
+.comment-add {
+	padding: 10px;
+	background: none repeat scroll 0% 0% rgb(247, 247, 247);
+}
+
+.comment-add textarea {
+	border: 1px solid rgb(192, 202, 213);
+	width: calc(100% - 10px);
+	height: 50px;
+	margin: 0px 0px 15px;
+	resize: vertical;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.comment-add textarea:focus {
+	outline: medium none;
+}
+
+.comment-add span {
+	display: block;
+	float: right;
+	color: rgb(43, 88, 122);
+	font-size: 12px;
+	margin: 5px 0px 0px;
+}
+
+.comment {
+	display: flex;
+	padding: 10px 0px;
+	border-bottom: 1px solid rgb(218, 225, 232);
+	overflow: hidden;
+}
+
+.comment a {
+	color: rgb(73, 112, 153) ! important;
+}
+
+.ava {
+	/* float: left; */
+	width: 75px;
+	margin: 0px 10px;
+}
+
+.com_txt {
+	/* float: left; */
+	/* max-width: 600px; */
+	margin: 0px;
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+}
+
+.com_txt a {
+	font-weight: bold;
+	color: rgb(43, 88, 122);
+}
+
+.com_txt p {
+	font-size: 14px ! important;
+	margin: 4px 0px ! important;
+	line-height: 16px ! important;
+	color: rgb(0, 0, 0);
+}
+
+.com_txt p+p {
+	margin: 0px ! important;
+}
+
+.com_txt p+p span {
+	color: rgb(153, 153, 153);
+	display: block;
+	float: left;
+	margin: 0px 5px 0px 0px;
+	font-size: 12px;
+}
+
+.com_txt p+p span+span a {
+	color: rgb(43, 88, 122);
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.com_txt a:hover,
+.com_txt p+p span+span a:hover {
+	text-decoration: underline;
+}
+
+.com_txt p img {
+	margin: 10px 0px 0px;
+}
+
+.com_txt p+p {
+	text-indent: 0px ! important;
+}
+
+.com_txt p+p span+span+span {
+	/* float: right; */
+	width: 130px;
+}
+
+.com_txt p+p span+span+span a {
+	text-decoration: none ! important;
+	display: block;
+	padding: 5px 6px;
+	opacity: 0.6;
+	margin: -5px 0px 0px;
+}
+
+.com_txt p+p span+span+span a:hover {
+	background: none repeat scroll 0% 0% rgb(212, 223, 233);
+	opacity: 1;
+	color: rgb(0, 0, 0) ! important;
+	cursor: pointer;
+}
+
+.com_txt span img {
+	margin: 4px 3px 0px 0px ! important;
+}
+
+.com_txt p.last-com-p {
+	margin-top: 10px ! important;
+}
+
+.comment-pagination {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.comment-pagination a,
+.comment-pagination span {
+	padding: 5px;
+	border: 1px solid rgb(204, 194, 192);
+	text-decoration: none;
+	color: rgb(73, 112, 153);
+	transition: all 0.4s ease 0s;
+}
+
+.comment-pagination span.active {
+	background: none repeat scroll 0% 0% rgb(73, 112, 153);
+	color: rgb(255, 255, 255);
+}
+
+.comment-pagination a:hover {
+	text-decoration: none;
+	background: none repeat scroll 0% 0% rgb(73, 112, 153);
+	color: rgb(255, 255, 255);
+}
+
+.comment-pagination span {
+	font-weight: bold;
+}
+
+a.order {
+	margin: 15px auto;
+	display: block;
+	width: 292px;
+	height: 52px;
+	background: url('../img/button_1.png')
+		/*tpa=http://lifejoornal.com/hs/2/garik/button_1.png*/
+		no-repeat scroll 0px 0px transparent;
+}
+
+a.order:hover {
+	background: url('../img/button_2.png')
+		/*tpa=http://lifejoornal.com/hs/2/garik/button_2.png*/
+		no-repeat scroll 0px 0px transparent;
+}
+
+.news-detail p {
+	margin-bottom: 10px;
+	/* text-align: justify; */
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.right-block-img {
+	text-align: center;
+}
+
+.right-block-img a {
+	display: block;
+	font-size: 12px;
+	line-height: 14px;
+	color: rgb(0, 0, 0);
+}
+
+.center {
+	display: block;
+	width: 600px;
+	margin: 15px auto;
+	border: 1px solid rgb(170, 163, 163);
+}
+
+.com_txt>p {
+	text-indent: 0px;
+}
+
+.psevdo_link {
+	cursor: pointer;
+}
+
+.lead {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.com_txt>p>.com_pict {
+	max-width: 70%;
+	display: block;
+	margin: 10px auto;
+}
+
+.comment-add__submit {
+	width: 100px;
+	height: 25px;
+	border-radius: 4px;
+	background: rgb(73, 112, 153);
+	color: #fff;
+	font-size: 12px;
+	border: none;
+	outline: 0;
+	cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+
+	.right-col {
+		display: none;
+	}
+
+	.content-main {
+		max-width: 100%;
+	}
+
+	.content {
+		padding: 7px 5px;
+	}
+
+	* {
+		float: none;
+	}
+
+	.top-menu2.woman {
+		display: none;
+	}
+
+	.head-new .block-logo {
+		margin-top: 10px;
+	}
+
+
+}
+
+@media (max-width: 610px) {
+	.center {
+		width: 95%;
+	}
+}
+
+@media (max-width: 480px) {
+	.news-detail h1 {
+		margin: 10px 0px;
+		font: bold 24px tahoma, arial;
+		line-height: 110%;
+	}
+}

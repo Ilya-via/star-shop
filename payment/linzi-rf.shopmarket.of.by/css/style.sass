@@ -1,0 +1,605 @@
+* 
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+body 
+	min-width: 480px
+	background: #ddd
+	cursor: default
+
+.container 
+	margin: 0 auto
+	width: 480px
+	background: #ffffff
+
+.button_big
+    display: block
+    background: linear-gradient(180deg, #BC012E 0%, #DA0034 100%);
+    border-radius: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 118.7%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: 76px
+    width: 435px
+    margin: 0 auto
+    display: flex
+    justify-content: center
+    align-items: center
+    text-decoration: none
+    border: 0
+
+.header
+    background-image: url('../img/header_bg.png')
+    background-repeat: no-repeat
+    height: 616px
+    margin-bottom: 100px
+    position: relative
+    &__title
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 49px;
+        text-align: center;
+        color: #000000;
+        position: absolute
+        top: 20px
+        left: 0
+        right: 0
+    &__subtitle
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center
+        color: #FFFFFF;
+        position: absolute
+        bottom: 50px
+        left: 10px
+    &__discount
+        position: absolute
+        top: 85px
+        left: 10px
+        font-family: Montserrat;
+        text-align: center
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: #FFFFFF;
+        span
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 38px;
+            color: #FFFFFF;
+            display: block
+            transform: matrix(1, -0.06, 0.04, 1, 0, 0);
+    &__gift
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute
+        top: 245px
+        right: 25px
+        span
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 49px;
+            text-align: center;
+            color: #FFFFFF;
+
+.price
+    background-image: url('../img/price.png')
+    background-repeat: no-repeat
+    height: 97px
+    position: absolute
+    bottom: -80px
+    left: 0
+    right: 0
+
+.about2 
+    position: relative
+    padding-top: 180px
+    margin-bottom: 70px    
+    &__item
+        position: absolute
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        border: 1px solid #000000
+        background-color: #fff
+        span
+            font-weight: 600
+    &__item1
+        padding: 5px 10px
+        top: 20px
+        left: 50px
+        right: 50px
+    &__item2
+        padding: 20px 20px
+        bottom: -20px
+        left: 0
+
+.item_big
+    margin-bottom: 40px
+    position: relative
+    &-yellow
+        .item_big__ribbon
+            position: absolute
+            top: 150px
+            left: 22px
+            font-family: Montserrat
+            font-style: normal;
+            font-weight: 900;
+            font-size: 25px;
+            line-height: 104.7%;
+            text-transform: uppercase;
+            color: #FF0000;
+            text-align: center
+            span
+                font-family: Montserrat
+                font-style: normal;
+                font-weight: 900;
+                font-size: 50px;
+                line-height: 104.7%;
+                text-transform: uppercase;
+                color: #FF0000;
+    &-green
+        .item_big__ribbon
+            position: absolute
+            top: 160px  
+            left: 30px
+            font-family: Montserrat
+            font-style: normal;
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 104.7%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+    &__img
+        position: relative
+        height: 471px
+        z-index: 10
+    &__ribbon
+        z-index: 20
+    &__stars
+        position: absolute
+        top: 20px
+        left: 15px
+        z-index: 20
+        background-image: url('../img/trend_stars.png')
+        background-repeat: no-repeat
+        width: 91px
+        height: 16px
+    &__subtitle
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute
+        top: 83px
+        left: 12px
+        z-index: 20
+        letter-spacing: 1px
+    &__bottom
+        display: flex
+        justify-content: space-around
+    &__button
+        background: linear-gradient(180deg, #FF0000 0%, #9A1515 100%);
+        box-shadow: 0px 4px 4px rgba(154, 21, 21, 0.35);
+        border-radius: 100px;
+        height: 66px
+        width: 191px
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 27px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-decoration: none
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-top: -10px
+        position: relative
+        z-index: 20
+
+
+.about3
+    &__title
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+    &__img
+        position: relative
+        width: 100%
+    &__subtitle
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        padding: 5px 10px
+        background-color: #fff
+        border: 1px solid #000000
+        position: absolute
+        bottom: 20px
+        right: 80px
+        left: 80px
+        text-align: center
+    &__list
+        padding: 20px 20px
+        li
+            background-image: url('../img/li.png')
+            background-repeat: no-repeat
+            padding-left: 30px
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+            margin-bottom: 20px
+            span
+                font-weight: 600
+
+.about5
+    margin-top: -10px
+    background-image: url('../img/about5_bg.png')
+    background-repeat: no-repeat
+    height: 670px
+    position: relative
+    &__item
+        position: absolute
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    &__item1
+        top: 43px
+        left: 40px
+    &__item2
+        top: 133px
+        right: 30px
+    &__item3
+        top: 523px
+        left: 36px
+    &__item4
+        top: 603px
+        left: 163px
+    &__item5
+        top: 562px
+        right: 10px
+
+.basic_lens
+    &__title   
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+        margin-top: 100px
+    &__content
+        display: flex
+        padding: 0 15px
+        flex-flow: row wrap
+        justify-content: space-between
+
+.carnaval_lens
+    &__title   
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+        margin-top: 100px
+    &__content
+        display: flex
+        padding: 0 15px
+        flex-flow: row wrap
+        justify-content: space-between
+
+.instructions 
+    margin-bottom: 100px
+    &__title   
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+        margin-top: 100px
+    &__button
+        background: linear-gradient(180deg, #BC012E 0%, #DA0034 100%);
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 381px
+        height: 60px
+        cursor: pointer
+        margin: 0 auto
+        margin-bottom: 20px
+    &__modal
+        img
+            width: 100%
+            margin-bottom: 20px
+        p
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+            margin-bottom: 30px
+            text-align: left
+            span
+                font-weight: 600
+
+.item
+    width: 216px
+    text-align: center
+    margin-bottom: 80px
+    &__img
+        position: relative
+        margin-bottom: 10px
+    &__stars
+        background-image: url('../img/trend_stars.png')
+        background-repeat: no-repeat
+        position: absolute
+        top: 10px
+        left: 10px
+        width: 91px
+        height: 16px
+    &__title
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        margin-bottom: 5px
+    &__text
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 5px
+    &__button
+        background: linear-gradient(180deg, #BC012E 0%, #DA0034 100%);
+        border-radius: 10px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 118.7%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-decoration: none
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 185px
+        height: 38px
+        margin: 0 auto
+        margin-top: 5px
+
+.gallery
+    margin-bottom: 70px
+    &__title
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000000;
+        margin-bottom: 30px
+        text-align: center
+
+.howtobuy
+    &__title
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 92.7%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 25px
+        position: relative
+    &__hr
+        border: 0
+        background-color: transparent
+        height: 1px
+        border-bottom: 1px solid #000  
+        margin: 10px auto
+        width: 90%
+    &__content
+        display: flex
+        flex-flow: row wrap
+        padding: 23px
+        justify-content: space-between
+    &__item
+        margin-bottom: 20px
+        background: linear-gradient(180deg, #BC012E 0%, #DA0034 100%);
+        box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        width: 208px
+        height: 194px
+        &__img
+            margin-bottom: 16px
+        &__text
+            font-family: Montserrat
+            font-weight: 400
+            font-size: 18px
+            line-height: 1.2
+            text-align: center
+            color: #ffffff
+
+.form 
+    width: 90%
+    margin: 120px auto 70px
+    background: linear-gradient(180deg, #BC012E 0%, #DA0034 100%);
+    border-radius: 20px;
+    padding: 40px 40px 60px 40px
+    &__title
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 37px;
+        color: #ffffff;
+        margin-bottom: 10px
+        text-align: center
+    &__subtitle
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+        margin-bottom: 40px
+        text-align: center
+    input[type="text"],input[type="tel"]
+        width: 100%
+        height: 46px
+        display: block
+        margin: 0 auto
+        border: 1px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: transparent
+        margin-bottom: 20px
+        padding-left: 20px
+        color: #000000
+    &__button
+        width: 100%
+        margin-top: 20px
+        margin-bottom: 60px
+        height: 50px
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+        border-radius: 10px 
+        color: #2F3030;
+        text-transform: uppercase
+        text-align: center
+        background: #ffffff
+        cursor: pointer
+    label
+        color: #fff
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 17px;
+        color: #ffffff;
+        text-align: center
+
+::placeholder
+    color: #c7c7c7
+
+.footer
+    background-image: url('../img/footer.png')
+    height: 247px
+    font-family: Montserrat
+    font-size: 18px
+    padding-top: 95px
+    text-align: center
+
+.slick
+    &-prev
+        left: 5px
+        padding-right: 5px
+    &-next
+        right: 5px
+        padding-left: 5px
+    &-arrow
+        width: 55px
+        height: 55px
+        position: absolute
+        z-index: 9999
+        top: 230px
+        color: #000
+        background-color: transparent
+        border: 0
+        font-size: 30px
+        border-radius: 50%
+        background-color: #ffffff
+        box-shadow: 0 0 3px 3px rgba(0,0,0,.2)
+    &-dots
+        list-style: none
+        display: flex
+        justify-content: center
+        margin-top: 20px
+        li
+            margin-right: 20px
+            button 
+                width: 15px
+                font-size: 0
+                height: 15px
+                border-radius: 50%
+                border: 0
+                background-color:#AA284C
+                font-size: 0
+                opacity: 0.5
+            &:last-child
+                margin-right: 0
+    &-active
+        button
+            opacity: 1 !important
