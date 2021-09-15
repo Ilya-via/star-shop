@@ -35,7 +35,7 @@ $postData = http_build_query(array(
         'phone' => $phone,
 				'orderMethod' => 'zaiavka-s-saita-luuk-by',
 				'status' => 'new',
-        'managerComment' => "Заявка с сайта luuk.by",
+        'managerComment' => "Заявка с сайта star-shop.by",
 				'customFields' => array(
 					'type_sales' => 6,
 			),
@@ -73,7 +73,7 @@ $result = json_decode(
 );
 
 $email = "vrassrochky.by@gmail.com"; 
-$title = "Заявка с сайта luuk.by";
+$title = "Заявка с сайта star-shop.by";
 
 $text = "
 Информация о покупателе:
