@@ -57,6 +57,11 @@ body {
 	font-weight: 600;
 }
 
+/* Бесплатная доставка при заказе от 100 byn  */
+.header-bottom-right.hidden-xs.hidden-sm {
+	display: none;
+}
+
 article,
 aside,
 details,
