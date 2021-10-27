@@ -70,7 +70,8 @@ $opts = array('http' =>
 );
 
 $context  = stream_context_create($opts);
-$result = json_decode(
+if ( !($name == '' && $phone == '' || $name == null && $phone == null || $phone == null || $phone == '' )) {
+	$result = json_decode(
     file_get_contents(
         $crmDomain . '/api/v4/orders/create', 
         false, 
@@ -78,6 +79,7 @@ $result = json_decode(
     ),
     true
 );
+} 
 
 $email = "vrassrochky.by@gmail.com"; 
 $title = "Заявка с сайта star-shop.by";

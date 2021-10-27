@@ -31,7 +31,8 @@ $opts = array('http' =>
 );
 
 $context  = stream_context_create($opts);
-$result = json_decode(
+if ( !($name == '' && $phone == '' || $name == null && $phone == null || $phone == null || $phone == '' )) {
+	$result = json_decode(
     file_get_contents(
         $RETAIL_URL . '/api/v4/customers/create', 
 				false, 
@@ -39,6 +40,7 @@ $result = json_decode(
     ),
     true
 );
+} 
 
 $email = "vrassrochky.by@gmail.com"; 
 $title = "Форма в footer на новом сайте";
